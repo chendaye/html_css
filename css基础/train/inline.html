@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inline</title>
+    <style>
+        /* 重置样式 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .c1{
+            background-color:springgreen;
+            border:solid 2px red;
+        }
+
+        span {
+            background: rgb(199, 23, 46);
+            /* 按行的上边界对齐 */
+            vertical-align: top; 
+            
+        }
+
+        .line1{
+            line-height:100px;
+            /* float: left; */
+        }
+        .line2{
+            line-height:200px;
+        }
+        .line3{
+            line-height:300px;
+        }
+        .line5{
+            line-height:500px;
+            /* float: left; */
+        }
+
+         .cc1{
+            font-size:12px;
+         }
+         .cc2{
+         font-size:18px;
+         }
+         .cc3{
+         font-size:24px;
+         }
+       
+    </style>
+</head>
+
+<body>
+    <div class="c1">
+        <span class="line1 one">line-1</span>
+        <span class="line2 one">line-2</span>
+        <span class="line3 one">line-3</span>
+        line-4
+        <span class="line5 one">line-5</span>
+
+    </div>
+
+
+    <div class="c1">
+        <span class="cc1">第一段</span>
+        <span class="cc2">第二段</span>
+        <span class="cc3">第三段</span>
+    </div>
+
+    <div style="border:solid 1px red;">
+        <span style="background:blue;color:#fff;font-size:20px;line-height:60px;">
+            居中xfg&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </span>
+    </div>
+
+</body>
+
+</html>
